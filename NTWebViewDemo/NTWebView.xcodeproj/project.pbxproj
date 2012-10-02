@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2385F61619C417004DD51C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2385F51619C417004DD51C /* UIKit.framework */; };
+		EB2385F81619C417004DD51C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2385F71619C417004DD51C /* Foundation.framework */; };
+		EB2385FA1619C417004DD51C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2385F91619C417004DD51C /* CoreGraphics.framework */; };
+		EB2386001619C417004DD51C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB2385FE1619C417004DD51C /* InfoPlist.strings */; };
+		EB2386021619C417004DD51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2386011619C417004DD51C /* main.m */; };
+		EB2386061619C417004DD51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2386051619C417004DD51C /* AppDelegate.m */; };
+		EB2386081619C417004DD51C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2386071619C417004DD51C /* Default.png */; };
+		EB23860A1619C417004DD51C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2386091619C417004DD51C /* Default@2x.png */; };
+		EB23860C1619C417004DD51C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB23860B1619C417004DD51C /* Default-568h@2x.png */; };
+		EB23860F1619C417004DD51C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23860E1619C417004DD51C /* ViewController.m */; };
+		EB2386121619C417004DD51C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB2386101619C417004DD51C /* ViewController_iPhone.xib */; };
+		EB2386151619C417004DD51C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB2386131619C417004DD51C /* ViewController_iPad.xib */; };
+		EB23861E1619C472004DD51C /* NTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB23861D1619C472004DD51C /* NTWebView.m */; };
+		EB2386271619CF8D004DD51C /* Previous.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2386231619CF8D004DD51C /* Previous.png */; };
+		EB2386281619CF8D004DD51C /* Next.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2386241619CF8D004DD51C /* Next.png */; };
+		EB2386291619CF8D004DD51C /* Reload.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2386251619CF8D004DD51C /* Reload.png */; };
+		EB23862A1619CF8D004DD51C /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2386261619CF8D004DD51C /* Home.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB2385F11619C417004DD51C /* NTWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2385F51619C417004DD51C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB2385F71619C417004DD51C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB2385F91619C417004DD51C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB2385FD1619C417004DD51C /* NTWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NTWebView-Info.plist"; sourceTree = "<group>"; };
+		EB2385FF1619C417004DD51C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB2386011619C417004DD51C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB2386031619C417004DD51C /* NTWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NTWebView-Prefix.pch"; sourceTree = "<group>"; };
+		EB2386041619C417004DD51C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB2386051619C417004DD51C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB2386071619C417004DD51C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EB2386091619C417004DD51C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EB23860B1619C417004DD51C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EB23860D1619C417004DD51C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB23860E1619C417004DD51C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB2386111619C417004DD51C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		EB2386141619C417004DD51C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		EB23861C1619C472004DD51C /* NTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTWebView.h; path = NTWebView/NTWebView.h; sourceTree = "<group>"; };
+		EB23861D1619C472004DD51C /* NTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTWebView.m; path = NTWebView/NTWebView.m; sourceTree = "<group>"; };
+		EB2386231619CF8D004DD51C /* Previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Previous.png; path = NTWebView/Previous.png; sourceTree = "<group>"; };
+		EB2386241619CF8D004DD51C /* Next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Next.png; path = NTWebView/Next.png; sourceTree = "<group>"; };
+		EB2386251619CF8D004DD51C /* Reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Reload.png; path = NTWebView/Reload.png; sourceTree = "<group>"; };
+		EB2386261619CF8D004DD51C /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = NTWebView/Home.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2385EE1619C417004DD51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2385F61619C417004DD51C /* UIKit.framework in Frameworks */,
+				EB2385F81619C417004DD51C /* Foundation.framework in Frameworks */,
+				EB2385FA1619C417004DD51C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2385E61619C417004DD51C = {
+			isa = PBXGroup;
+			children = (
+				EB2385FB1619C417004DD51C /* NTWebView */,
+				EB2385F41619C417004DD51C /* Frameworks */,
+				EB2385F21619C417004DD51C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2385F21619C417004DD51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2385F11619C417004DD51C /* NTWebView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2385F41619C417004DD51C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2385F51619C417004DD51C /* UIKit.framework */,
+				EB2385F71619C417004DD51C /* Foundation.framework */,
+				EB2385F91619C417004DD51C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB2385FB1619C417004DD51C /* NTWebView */ = {
+			isa = PBXGroup;
+			children = (
+				EB23861B1619C43C004DD51C /* NTWebView */,
+				EB2386041619C417004DD51C /* AppDelegate.h */,
+				EB2386051619C417004DD51C /* AppDelegate.m */,
+				EB23860D1619C417004DD51C /* ViewController.h */,
+				EB23860E1619C417004DD51C /* ViewController.m */,
+				EB2386101619C417004DD51C /* ViewController_iPhone.xib */,
+				EB2386131619C417004DD51C /* ViewController_iPad.xib */,
+				EB2385FC1619C417004DD51C /* Supporting Files */,
+			);
+			path = NTWebView;
+			sourceTree = "<group>";
+		};
+		EB2385FC1619C417004DD51C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB2385FD1619C417004DD51C /* NTWebView-Info.plist */,
+				EB2385FE1619C417004DD51C /* InfoPlist.strings */,
+				EB2386011619C417004DD51C /* main.m */,
+				EB2386031619C417004DD51C /* NTWebView-Prefix.pch */,
+				EB2386071619C417004DD51C /* Default.png */,
+				EB2386091619C417004DD51C /* Default@2x.png */,
+				EB23860B1619C417004DD51C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB23861B1619C43C004DD51C /* NTWebView */ = {
+			isa = PBXGroup;
+			children = (
+				EB2386231619CF8D004DD51C /* Previous.png */,
+				EB2386241619CF8D004DD51C /* Next.png */,
+				EB2386251619CF8D004DD51C /* Reload.png */,
+				EB2386261619CF8D004DD51C /* Home.png */,
+				EB23861C1619C472004DD51C /* NTWebView.h */,
+				EB23861D1619C472004DD51C /* NTWebView.m */,
+			);
+			name = NTWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2385F01619C417004DD51C /* NTWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2386181619C417004DD51C /* Build configuration list for PBXNativeTarget "NTWebView" */;
+			buildPhases = (
+				EB2385ED1619C417004DD51C /* Sources */,
+				EB2385EE1619C417004DD51C /* Frameworks */,
+				EB2385EF1619C417004DD51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTWebView;
+			productName = NTWebView;
+			productReference = EB2385F11619C417004DD51C /* NTWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2385E81619C417004DD51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = NileshTripathi;
+			};
+			buildConfigurationList = EB2385EB1619C417004DD51C /* Build configuration list for PBXProject "NTWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB2385E61619C417004DD51C;
+			productRefGroup = EB2385F21619C417004DD51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2385F01619C417004DD51C /* NTWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2385EF1619C417004DD51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2386001619C417004DD51C /* InfoPlist.strings in Resources */,
+				EB2386081619C417004DD51C /* Default.png in Resources */,
+				EB23860A1619C417004DD51C /* Default@2x.png in Resources */,
+				EB23860C1619C417004DD51C /* Default-568h@2x.png in Resources */,
+				EB2386121619C417004DD51C /* ViewController_iPhone.xib in Resources */,
+				EB2386151619C417004DD51C /* ViewController_iPad.xib in Resources */,
+				EB2386271619CF8D004DD51C /* Previous.png in Resources */,
+				EB2386281619CF8D004DD51C /* Next.png in Resources */,
+				EB2386291619CF8D004DD51C /* Reload.png in Resources */,
+				EB23862A1619CF8D004DD51C /* Home.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2385ED1619C417004DD51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2386021619C417004DD51C /* main.m in Sources */,
+				EB2386061619C417004DD51C /* AppDelegate.m in Sources */,
+				EB23860F1619C417004DD51C /* ViewController.m in Sources */,
+				EB23861E1619C472004DD51C /* NTWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB2385FE1619C417004DD51C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2385FF1619C417004DD51C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB2386101619C417004DD51C /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2386111619C417004DD51C /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EB2386131619C417004DD51C /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2386141619C417004DD51C /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB2386161619C417004DD51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2386171619C417004DD51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2386191619C417004DD51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NTWebView/NTWebView-Prefix.pch";
+				INFOPLIST_FILE = "NTWebView/NTWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB23861A1619C417004DD51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NTWebView/NTWebView-Prefix.pch";
+				INFOPLIST_FILE = "NTWebView/NTWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2385EB1619C417004DD51C /* Build configuration list for PBXProject "NTWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2386161619C417004DD51C /* Debug */,
+				EB2386171619C417004DD51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2386181619C417004DD51C /* Build configuration list for PBXNativeTarget "NTWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2386191619C417004DD51C /* Debug */,
+				EB23861A1619C417004DD51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2385E81619C417004DD51C /* Project object */;
+}
