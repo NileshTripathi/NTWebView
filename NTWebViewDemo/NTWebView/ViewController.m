@@ -20,6 +20,15 @@
     [super viewDidLoad];
 
     NTWebView *webView = [[NTWebView alloc] initWithFrame:self.view.frame withWebViewAccessories:UIWebViewAccessoriesTop];
+    
+    // Demonstrates bug in proxying code.
+    webView.scalesPageToFit = YES;
+    if (webView.scalesPageToFit){
+        NSLog(@"YES");
+    } else {
+        NSLog(@"NO");
+    }
+    
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.co.in/"]]];
     [self.view addSubview:webView];
 }
