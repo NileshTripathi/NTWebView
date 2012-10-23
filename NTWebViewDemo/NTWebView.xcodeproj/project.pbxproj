@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938476B71636808100583457 /* ABWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 938476B61636808100583457 /* ABWebView.m */; };
 		EB2385F61619C417004DD51C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2385F51619C417004DD51C /* UIKit.framework */; };
 		EB2385F81619C417004DD51C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2385F71619C417004DD51C /* Foundation.framework */; };
 		EB2385FA1619C417004DD51C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2385F91619C417004DD51C /* CoreGraphics.framework */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		938476B51636808100583457 /* ABWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABWebView.h; path = NTWebView/ABWebView.h; sourceTree = "<group>"; };
+		938476B61636808100583457 /* ABWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABWebView.m; path = NTWebView/ABWebView.m; sourceTree = "<group>"; };
 		EB2385F11619C417004DD51C /* NTWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2385F51619C417004DD51C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB2385F71619C417004DD51C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -131,6 +134,8 @@
 				EB2386261619CF8D004DD51C /* Home.png */,
 				EB23861C1619C472004DD51C /* NTWebView.h */,
 				EB23861D1619C472004DD51C /* NTWebView.m */,
+				938476B51636808100583457 /* ABWebView.h */,
+				938476B61636808100583457 /* ABWebView.m */,
 			);
 			name = NTWebView;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 				EB2386061619C417004DD51C /* AppDelegate.m in Sources */,
 				EB23860F1619C417004DD51C /* ViewController.m in Sources */,
 				EB23861E1619C472004DD51C /* NTWebView.m in Sources */,
+				938476B71636808100583457 /* ABWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
