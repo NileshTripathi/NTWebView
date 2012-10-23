@@ -49,7 +49,14 @@
 
 - (void)setDelegate:(id<UIWebViewDelegate>)delegate
 {
-    self.secondaryDelegate = delegate;
+    if (delegate == self)
+    {
+        [super setDelegate:delegate];
+    }
+    else
+    {
+        self.secondaryDelegate = delegate;
+    }
 }
 
 - (id<UIWebViewDelegate>)delegate
